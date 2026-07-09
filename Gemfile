@@ -21,3 +21,7 @@ if (ENV['RUBY_VERSION'] || RUBY_VERSION) >= '3.3'
   gem 'bigdecimal'
   gem 'drb'
 end
+
+if (ENV['RUBY_VERSION'] || RUBY_VERSION) >= '4.0'
+  gem 'benchmark'
+end
