@@ -19,6 +19,7 @@ jobs:
           - '3.2'
           - '3.1'
         rails-version:
+          - '8.1'
           - '8.0'
           - '7.2'
           - '7.1'
@@ -64,6 +65,8 @@ jobs:
             rails-version: '6.1'
 
         exclude:
+          - ruby-version: '3.1'
+            rails-version: '8.1'
           - ruby-version: '3.1'
             rails-version: '8.0'
 
